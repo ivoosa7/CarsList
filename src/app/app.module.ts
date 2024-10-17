@@ -4,11 +4,13 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableListCarsComponent } from './table-list-cars/table-list-cars.component';
+import { FormListCarsComponent } from './form-list-cars/form-list-cars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableListCarsComponent
+    TableListCarsComponent,
+    FormListCarsComponent
   ],
   imports: [
     BrowserModule,
