@@ -1,25 +1,11 @@
 {
   "Cars": [
       {
-        "Marca": "Honda",
-        "Modelo": "Civic",
-        "Ano": 2023,
-        "Preço": "R$ 130.000,00",
-        "Combustível": "Gasolina"
-      },
-      {
-        "Marca": "Toyota",
-        "Modelo": "Corolla",
-        "Ano": 2024,
-        "Preço": "R$ 140.000,00",
-        "Combustível": "Gasolina"
-      },
-      {
-        "Marca": "Ford",
-        "Modelo": "EcoSport",
-        "Ano": 2022,
-        "Preço": "R$ 110.000,00",
-        "Combustível": "Flex"
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2023,
+        "price": "R$ 130.000,00",
+        "fuel": "Gasolina"
       }
   ]
 }
