@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableListCarsComponent } from './table-list-cars/table-list-cars.component';
 import { FormListCarsComponent } from './form-list-cars/form-list-cars.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormListCarsComponent } from './form-list-cars/form-list-cars.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [
     provideClientHydration()
